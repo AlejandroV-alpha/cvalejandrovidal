@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Declaración del tipo de documento como HTML5 y lenguaje del contenido definido como inglés -->
+
+<head>
+  <meta charset="utf-8" />
+  <!-- Codificación de caracteres configurada en UTF-8 para soporte de caracteres especiales -->
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <!-- Configuración de la metaetiqueta viewport para un diseño responsivo, ajustando el ancho al del dispositivo -->
+
+  <title>Bienvenido a Mi Mundo Digital</title>
+  <!-- Título de la página que aparece en la pestaña del navegador -->
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
+  <!-- Icono pequeño que aparece en la pestaña del navegador o marcador del sitio -->
+
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <!-- Icono para dispositivos Apple al agregar la página a la pantalla de inicio -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <!-- Preconexión al servidor de Google Fonts para mejorar el tiempo de carga de las fuentes -->
+
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <!-- Preconexión a fonts.gstatic.com con CORS habilitado para cargar las fuentes de manera segura y rápida -->
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- Carga de las fuentes de Google: Roboto, Poppins y Raleway con varios pesos y estilos. La opción 'display=swap' asegura una carga optimizada. -->
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Archivo CSS principal de Bootstrap para un diseño responsivo y componentes de estilo prediseñados -->
+
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Iconos de Bootstrap para usar en la interfaz, importados desde la carpeta del proyecto -->
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <!-- CSS para la biblioteca AOS (Animate On Scroll), que permite animaciones al desplazarse -->
+
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <!-- CSS para la biblioteca GLightbox, útil para crear galerías de imágenes con efecto lightbox -->
+
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- CSS para Swiper, una biblioteca que permite crear carruseles de contenido deslizables -->
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <!-- Archivo CSS personalizado para definir el estilo principal del sitio -->
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <!-- Información de la plantilla usada para el proyecto, con detalles de derechos de autor y licencia -->
+</head>
+
+
+<body class="index-page">
+  <!-- Inicio del cuerpo de la página con clase para estilo general -->
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <!-- Encabezado con fondo oscuro y disposición flexible -->
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <!-- Icono para alternar el menú en pantallas pequeñas -->
+
+    <div class="profile-img">
+      <img src="assets/img/fotoPerfil.jpg" alt="" class="img-fluid rounded-circle" />
+      <!-- Imagen de perfil redonda y fluida -->
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Alejandro Vidal</h1>
+      <!-- Enlace al inicio con nombre del sitio centrado -->
+    </a>
+
+    <div class="social-links text-center">
+      <!-- Enlaces a redes sociales centrados -->
+
+      <a href="mailto:va0035314@est.univalle.edu" class="email" target="_blank">
+        <i class="bi bi-envelope"></i>
+      </a>
+      <!-- Enlace a correo electrónico -->
+
+      <a href="https://wa.me/59173488118" class="whatsapp" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <!-- Enlace a WhatsApp -->
+
+      <a href="https://www.instagram.com/alejandx_vdl/" class="instagram" target="_blank">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <!-- Enlace a Instagram -->
+
+      <a href="https://github.com/AlejandroV-alpha" class="github" target="_blank">
+        <i class="bi bi-github"></i>
+      </a>
+      <!-- Enlace a GitHub -->
+
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <!-- Menú de navegación principal, identificado por 'navmenu' -->
+
+      <ul>
+        <!-- Lista de elementos de navegación -->
+
+        <li>
+          <a href="#hero" class="active">
+            <i class="bi bi-house navicon"></i> Inicio
+          </a>
+        </li>
+        <!-- Enlace a la sección "Inicio", con un icono de casa y clase activa -->
+
+        <li>
+          <a href="#about">
+            <i class="bi bi-person navicon"></i> Perfil
+          </a>
+        </li>
+        <!-- Enlace a la sección "Perfil", con un icono de persona -->
+
+        <li>
+          <a href="#resume">
+            <i class="bi bi-file-earmark-text navicon"></i> Trayectoria
+          </a>
+        </li>
+        <!-- Enlace a la sección "Trayectoria", con un icono de archivo -->
+
+        <li>
+          <a href="#portfolio">
+            <i class="bi bi-images navicon"></i> Proyectos
+          </a>
+        </li>
+        <!-- Enlace a la sección "Proyectos", con un icono de imágenes -->
+
+        <li>
+          <a href="#skills">
+            <i class="bi bi-hdd-stack navicon"></i> Habilidades
+          </a>
+        </li>
+        <!-- Enlace a la sección "Habilidades", con un icono de pila de discos -->
+
+        <li>
+          <a href="#contact">
+            <i class="bi bi-envelope navicon"></i> Contacto
+          </a>
+        </li>
+        <!-- Enlace a la sección "Contacto", con un icono de sobre (email) -->
+
+      </ul>
+    </nav>
+    <!-- Fin del menú de navegación -->
+
+  </header>
+
+
+  <main class="main">
+    <!-- Sección Principal -->
+    <section id="hero" class="hero section dark-background">
+      <!-- Imagen de fondo con efecto de fade-in -->
+      <img src="assets/img/fondo.jpg" alt="" data-aos="fade-in" class="" />
+
+      <!-- Contenedor con el contenido de la sección -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!-- Título principal -->
+        <h2>Alejandro Vidal</h2>
+
+        <!-- Descripción con un texto dinámico usando Typed.js -->
+        <p>
+          Yo soy
+          <!-- Elemento para mostrar el texto de forma animada -->
+          <span class="typed"
+            data-typed-items="un futuro ingeniero en sistemas informaticos, alguien que explorara el mundo de la programación, una persona entusiasmado en la tecnologia"></span>
+          <!-- Cursor parpadeante que aparece después del texto -->
+          <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+          <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+        </p>
+      </div>
+    </section>
+    <!-- /Sección Principal -->
+
+
+    <!-- Secccion Perfil -->
+    <section id="about" class="about section">
+      <!-- Título de la sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Perfil</h2>
+        <!-- Descripción de tu perfil profesional -->
+        <p>
+          Como estudiante de Ingeniería en Sistemas, estoy desarrollando
+          habilidades en programación, desarrollo web, electrónica y análisis
+          de datos. Me considero una persona autónoma y proactiva en el
+          aprendizaje, con un fuerte enfoque en el desarrollo profesional y el
+          crecimiento continuo. Mi objetivo es aplicar mis conocimientos para
+          desarrollar soluciones innovadoras y contribuir al avance
+          tecnológico, generando un impacto positivo en la sociedad.
+        </p>
+      </div>
+      <!-- Fin del Título de la sección -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <!-- Imagen de perfil -->
+          <div class="col-lg-4">
+            <img src="assets/img/fotoPerfil.jpg" class="img-fluid" alt="Foto de Alejandro Vidal" id="fotoPerfilImg" />
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Datos Personales</h2>
+            <!-- Descripción adicional sobre tu motivación personal -->
+            <p class="fst-italic py-3">
+              Comprometido con el aprendizaje continuo y la mejora constante,
+              busco desarrollar mis habilidades y adquirir experiencia
+              práctica que me permita contribuir efectivamente a proyectos
+              tecnológicos de impacto.
+            </p>
+            <div class="row">
+              <!-- Detalles de contacto y datos personales -->
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Nombre Completo:</strong>
+                    <span>Alejandro Vidal</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Fecha de Nacimiento:</strong>
+                    <span>11 Diciembre 2005</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Celular:</strong> <span>+591 73488118</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Grado Académico:</strong>
+                    <span>Estudiante de Ingenieria en Sistemas Informaticos</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Nacionalidad:</strong> <span>Boliviano</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Ciudad de Residencia:</strong>
+                    <span>Cochabamba, Bolivia</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Email:</strong>
+                    <span>va0035314@est.univalle.edu</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Idiomas:</strong> <span>Español (Nativo) - Ingles (Intermedio-Avanzado)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Descripción final con motivación personal -->
+            <p class="py-3">
+              Mi motivación es continuar ampliando mis conocimientos y
+              habilidades para generar un impacto positivo en el campo de la
+              tecnología, contribuyendo a la creación de soluciones
+              innovadoras.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /About Section -->
+
+
+    <!-- Sección de Trayectoria -->
+    <section id="resume" class="resume section light-background">
+      <!-- Título de la sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Trayectoria</h2>
+        <p>
+          Comprometido con el aprendizaje y desarrollo en el ámbito de la
+          tecnología. Mis estudios y experiencias académicas se centran en
+          adquirir conocimientos sólidos para contribuir a soluciones
+          innovadoras y significativas en el ámbito tecnológico.
+        </p>
+      </div>
+      <!-- Fin del Título de la sección -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <!-- Resumen Profesional -->
+            <h3 class="resume-title">Resumen Profesional</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Alejandro Vidal</h4>
+              <p>
+                <em>
+                  Estudiante de Ingeniería en Sistemas con un enfoque principal en programación orientada a objetos y desarrollo de aplicaciones utilizando C#. A medida que continúo mi formación, me interesa explorar la interactividad digital, especialmente en plataformas como Unity, donde C# es ampliamente utilizado. Mi objetivo es crear experiencias interactivas y de entretenimiento, utilizando mis habilidades en programación para desarrollar soluciones innovadoras que ofrezcan un impacto positivo.
+                </em>
+              </p>
+              <ul>
+                <li>
+                  Conocimientos en: C#, desarrollo de aplicaciones, lógica de
+                  programación y estructuras de datos.
+                </li>
+                <li>
+                  Interés: Desarrollo con C# en motores como
+                  Unity.
+                </li>
+                <li>
+                  Metas: Perfeccionar mis habilidades en programación
+                  orientada a objetos, expandir mi conocimiento en diseño, algoritmos y
+                  gráficos computacionales.
+                </li>
+              </ul>
+            </div>
+            <!-- Fin del Resumen Profesional -->
+
+            <!-- Educación -->
+            <h3 class="resume-title">Educación</h3>
+            <div class="resume-item">
+              <h4>Educación Primaria &amp; Secundaria</h4>
+              <h5>2012 - 2023</h5>
+              <p>
+                <em>Unidad Educativa Jose Manuel Belgrano 4, Tarija,
+                  Bolivia</em>
+              </p>
+              <p>
+                Completé mi educación primaria y secundaria en la UE José
+                Manuel Belgrano 4 en Tarija, Bolivia, donde desarrollé una
+                base académica sólida y participé activamente en diversas
+                actividades que contribuyeron a mi crecimiento personal y
+                académico.
+              </p>
+            </div>
+            <!-- Fin de Educación -->
+
+            <div class="resume-item">
+              <h4>Educación Universitaria</h4>
+              <h5>2024 - Actualidad</h5>
+              <p><em>Universidad del Valle, Cochabamba, Bolivia</em></p>
+              <p>
+                Actualmente, estudio Ingeniería en Sistemas Informáticos en
+                UNIVALLE, donde estoy ampliando mis conocimientos en
+                desarrollo de software, redes y tecnología, y participando en
+                proyectos académicos que enriquecen mi formación profesional.
+              </p>
+            </div>
+            <!-- Fin de Educación Universitaria -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <!-- Certificados y Cursos -->
+            <h3 class="resume-title">Certificados y Cursos</h3>
+            <div class="resume-item">
+              <h4>CISCO NETWORKING ACADEMY</h4>
+
+              <p><em>Completado | Proceso</em></p>
+              <ul>
+                <li>Get Connected - Estamos conectados</li>
+                <li>Python Essentials 1 - Fundamentos de Python 1</li>
+                <li>Digital Awareness - Conciencia digital</li>
+                <li>
+                  Introduction to Cybersecurity - Introducción a la
+                  Ciberseguridad
+                </li>
+                <li>
+                  AI Fundamentals with IBM SkillsBuild - Fundamentos de IA con
+                  IBM SkillsBuild
+                </li>
+                <li>
+                  Introduction to IoT and Digital Transformation - Introducción a
+                  la IoT y la Transformación Digital
+                </li>
+                <li>
+                  Introduction to Data Science - Introducción a la Ciencia de
+                  Datos
+                </li>
+              </ul>
+            </div>
+            <!-- Fin del Certificado Cisco -->
+
+            <div class="resume-item">
+              <h4>Oracle Academy</h4>
+
+              <p><em>Completado | Proceso</em></p>
+              <ul>
+                <li>DFo Database Foundations Alumno - Español</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Formación Complementaria</h4>
+              <ul>
+                <li>
+                  Curso de Oratoria - El arte de hablar en público,
+                  Universidad Juan Misael Saracho, Tarija - Abril, 2015
+                </li>
+                <li>
+                  Curso de capacitación técnica en Robótica con Arduino,
+                  EECOGUZ, Tarija - Diciembre, 2018
+                </li>
+                <li>
+                  Curso de Inglés, Centro Boliviano Americano (CBA), Tarija - Febrero, 2020
+                </li>
+              </ul>
+            </div>
+
+            <!-- Asistencia a Programas Académicos -->
+            <h3 class="resume-title">Asistencia a programas académicos</h3>
+            <div class="resume-item">
+              <ul>
+                <li>
+                  Olimpiadas Científicas Estudiantiles Plurinacionales de Bolivia
+                  OCEPB 2018 (Área Matemáticas, Astronomía y Astrofísica).
+                </li>
+                <li>
+                  Participación en el Programa American Leaders, liderazgo y
+                  servicio comunitario de CBA Tarija, gestión 2019.
+                </li>
+                <li>
+                  Olimpiadas Científicas Estudiantiles Plurinacionales de Bolivia
+                  OCEPB 2019 (Área Matemáticas, Astronomía y Astrofísica).
+                </li>
+                <li>
+                  Olimpiadas Científicas Estudiantiles Plurinacionales de Bolivia
+                  OCEPB 2022 (Área Geografía, Astronomía y Astrofísica).
+                </li>
+                <li>
+                  Olimpiadas Científicas Estudiantiles Plurinacionales de Bolivia
+                  OCEPB 2023 (Área Matemáticas, Física).
+                </li>
+                <li>
+                  Participación en el proceso de acreditación interna de la
+                  carrera de Ingeniería en Sistemas Informáticos, Univalle 2024
+                </li>
+              </ul>
+            </div>
+            <!-- Fin de los Programas Académicos -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Sección de Trayectoria -->
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Proyectos</h2>
+        <p>
+          He tenido la oportunidad de desarrollar mis habilidades y ampliar mi conocimiento en sistemas informáticos a través de diversos proyectos.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todo</li>
+            <li data-filter=".filter-csharp">C#</li>
+          </ul>
+          <!-- End Portfolio Filters -->
+
+          <!-- Portfolio Items -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- INICIO -->
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+              <!-- Carrusel de Proyectos -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-csharp">
+                <div class="portfolio-content h-100">
+                  <div class="card border-0 shadow">
+                    <!-- Imagen con lupa -->
+                    <div id="carouselCSharp1" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <!-- Imagen 1 -->
+                        <div class="carousel-item active">
+                          <a href="assets/img/portfolio/chess-1.png" title="Proyecto Ajedrez en WPF"
+                            data-gallery="portfolio-gallery-csharp" class="glightbox preview-link">
+                            <img src="assets/img/portfolio/chess-1.png" class="card-img-top" alt="Proyecto Ajedrez en WPF" />
+                          </a>
+                        </div>
+                        <!-- Imagen 2 -->
+                        <div class="carousel-item">
+                          <a href="assets/img/portfolio/chess-2.png" title="Proyecto Ajedrez en WPF"
+                            data-gallery="portfolio-gallery-csharp" class="glightbox preview-link">
+                            <img src="assets/img/portfolio/chess-2.png" class="card-img-top" alt="Proyecto Ajedrez en WPF" />
+                          </a>
+                        </div>
+                        <!-- Imagen 3 -->
+                        <div class="carousel-item">
+                          <a href="assets/img/portfolio/chess-3.png" title="Proyecto Ajedrez en WPF"
+                            data-gallery="portfolio-gallery-csharp" class="glightbox preview-link">
+                            <img src="assets/img/portfolio/chess-3.png" class="card-img-top" alt="Proyecto Ajedrez en WPF" />
+                          </a>
+                        </div>
+                        <!-- Imagen 4 -->
+                        <div class="carousel-item">
+                          <a href="assets/img/portfolio/chess-4.png" title="Proyecto Ajedrez en WPF"
+                            data-gallery="portfolio-gallery-csharp" class="glightbox preview-link">
+                            <img src="assets/img/portfolio/chess-4.png" class="card-img-top" alt="Proyecto Ajedrez en WPF" />
+                          </a>
+                        </div>
+                      </div>
+                      <!-- Controles del carrusel -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCSharp1"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselCSharp1"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <!-- Información del proyecto debajo de la imagen -->
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto Ajedrez en WPF</h5>
+                      <p class="card-text">
+                        Desarrollé un juego de ajedrez interactivo en WPF con C# y XAML, inspirado en plataformas como
+                        Lichess. El proyecto incluye una ventana de registro de jugadores para capturar sus nombres
+                        antes de la partida e implementa modos de juego Blitz, Bullet y Rapid, cada uno con
+                        temporizadores específicos. Usando los principios de la programación orientada a objetos, como
+                        la encapsulación para asegurar la integridad de los datos, la abstracción para definir
+                        comportamientos comunes, la herencia para reutilizar código y el polimorfismo para gestionar las
+                        acciones de las piezas, el juego valida los movimientos y reglas del ajedrez, incluyendo
+                        captura, jaque y jaque mate. Además, ofrece una interfaz altamente interactiva y fácil de usar,
+                        con botones para seleccionar jugadas, mostrar el estado de la partida y gestionar el control del
+                        tiempo, todo ello manteniendo una experiencia visual atractiva y fluida.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FIN -->
+
+            <!-- INICIO -->
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+              <!-- Carrusel de Proyectos -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-csharp">
+                <div class="portfolio-content h-100">
+                  <div class="card border-0 shadow">
+                    <!-- Imagen con lupa -->
+                    <div id="carouselCSharp2" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <!-- Imagen 1 -->
+                        <div class="carousel-item active">
+                          <a href="assets/img/portfolio/calculadora-1.png" title="Proyecto Calculadora en WPF"
+                            data-gallery="portfolio-gallery-csharp" class="glightbox preview-link">
+                            <img src="assets/img/portfolio/calculadora-1.png" class="card-img-top"
+                              alt="Proyecto Calculadora en WPF" />
+                          </a>
+                        </div>
+                        <!-- Imagen 2 -->
+                        <div class="carousel-item">
+                          <a href="assets/img/portfolio/calculadora-2.png" title="Proyecto Calculadora en WPF"
+                            data-gallery="portfolio-gallery-csharp" class="glightbox preview-link">
+                            <img src="assets/img/portfolio/calculadora-2.png" class="card-img-top"
+                              alt="Proyecto Calculadora en WPF" />
+                          </a>
+                        </div>
+                        <!-- Imagen 3 -->
+                        <div class="carousel-item">
+                          <a href="assets/img/portfolio/calculadora-3.png" title="Proyecto Calculadora en WPF"
+                            data-gallery="portfolio-gallery-csharp" class="glightbox preview-link">
+                            <img src="assets/img/portfolio/calculadora-3.png" class="card-img-top"
+                              alt="Proyecto Calculadora en WPF" />
+                          </a>
+                        </div>
+                        <!-- Imagen 4 -->
+                        <div class="carousel-item">
+                          <a href="assets/img/portfolio/calculadora-4.png" title="Proyecto Calculadora en WPF"
+                            data-gallery="portfolio-gallery-csharp" class="glightbox preview-link">
+                            <img src="assets/img/portfolio/calculadora-4.png" class="card-img-top"
+                              alt="Proyecto Calculadora en WPF" />
+                          </a>
+                        </div>
+                      </div>
+                      <!-- Controles del carrusel -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCSharp2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselCSharp2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <!-- Información del proyecto debajo de la imagen -->
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto Calculadora Cientifica en WPF</h5>
+                      <p class="card-text">
+                        Desarrollé una calculadora científica en WPF utilizando C# y XAML, que permite realizar
+                        operaciones matemáticas básicas y avanzadas, como trigonometría (seno, coseno, tangente),
+                        logaritmos naturales, factoriales, potencias, raíces cuadradas y más. Implementé una interfaz
+                        sencilla para el usuario interactiva con botones, cuadros de texto y un historial de cálculos,
+                        además de opciones para cambiar entre grados y radianes. El proyecto fue diseñado con enfoque en
+                        la usabilidad y validación de entradas, asegurando un rendimiento eficiente y una experiencia
+                        intuitiva para el usuario.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FIN -->
+
+            <!-- End Portfolio Items -->
+
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+    </section>
+    <!-- /Portfolio Section -->
+
+    <!-- Sección de Habilidades -->
+    <section id="skills" class="skills section light-background py-5">
+      <div class="container">
+        <!-- Título de la Sección -->
+        <div class="text-center mb-5">
+          <h2>Habilidades</h2>
+          <p>
+            Actualmente estoy adquiriendo habilidades en desarrollo web,
+            programación y herramientas tecnológicas. Me motiva enfrentar
+            desafíos y proyectos que me permiten expandir mis conocimientos.
+          </p>
+        </div>
+
+        <!-- Rejilla de Habilidades -->
+        <div class="row text-center">
+          <!-- Elemento de habilidad 1: C# -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-braces" style="font-size: 2rem"></i>
+            <h5 class="mt-2">C#</h5>
+          </div>
+
+          <!-- Elemento de habilidad 2: HTML -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-filetype-html" style="font-size: 2rem"></i>
+            <h5 class="mt-2">HTML</h5>
+          </div>
+
+          <!-- Elemento de habilidad 3: CSS -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-filetype-css" style="font-size: 2rem"></i>
+            <h5 class="mt-2">CSS</h5>
+          </div>
+
+          <!-- Elemento de habilidad 4: Blender -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-brush" style="font-size: 2rem"></i>
+            <h5 class="mt-2">Blender</h5>
+          </div>
+
+          <!-- Elemento de habilidad 5: JavaScript -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-filetype-js" style="font-size: 2rem"></i>
+            <h5 class="mt-2">JavaScript</h5>
+          </div>
+
+          <!-- Elemento de habilidad 6: Inglés -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-translate" style="font-size: 2rem"></i>
+            <h5 class="mt-2">Inglés</h5>
+          </div>
+
+          <!-- Elemento de habilidad 7: Microsoft Word -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-file-earmark-word" style="font-size: 2rem"></i>
+            <h5 class="mt-2">Word</h5>
+          </div>
+
+          <!-- Elemento de habilidad 8: Microsoft PowerPoint -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-file-earmark-ppt" style="font-size: 2rem"></i>
+            <h5 class="mt-2">PowerPoint</h5>
+          </div>
+
+          <!-- Elemento de habilidad 9: Resolución de Problemas -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-lightbulb" style="font-size: 2rem"></i>
+            <h5 class="mt-2">Resolución de Problemas</h5>
+          </div>
+
+          <!-- Elemento de habilidad 10: Pensamiento analítico -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-bar-chart" style="font-size: 2rem"></i>
+            <h5 class="mt-2">Pensamiento analítico</h5>
+          </div>
+
+          <!-- Elemento de habilidad 11: Python -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-file-earmark-code" style="font-size: 2rem"></i>
+            <h5 class="mt-2">Python</h5>
+          </div>
+
+          <!-- Elemento de habilidad 12: Adaptabilidad -->
+          <div class="col-md-6 mb-4">
+            <i class="bi bi-arrow-repeat" style="font-size: 2rem"></i>
+            <h5 class="mt-2">Adaptabilidad</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Sección de Habilidades -->
+
+
+
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact section">
+      <!-- Título de la Sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>
+          "Gracias por visitar mi portafolio. Si tienes alguna consulta o quieres comentar sobre algún proyecto, estaré
+          encantado de escucharte. Puedes enviarme un mensaje y con gusto te responderé en cuanto tenga oportunidad.
+          ¡Espero poder colaborar contigo pronto!".
+        </p>
+      </div>
+      <!-- Fin del Título de la Sección -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="info-wrap">
+              <!-- Información de Ubicación -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Ubicación</h3>
+                  <p>Bolivia, GMT-4</p>
+                </div>
+              </div>
+              <!-- Fin de Información de Ubicación -->
+
+              <!-- Información de Celular -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Celular</h3>
+                  <p>+591 73488118</p>
+                </div>
+              </div>
+              <!-- Fin de Información de Celular -->
+
+              <!-- Información de Email -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>va0035314@est.univalle.edu</p>
+                </div>
+              </div>
+              <!-- Fin de Información de Email -->
+
+              <!-- Imagen de ejemplo -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                <img src="assets/img/contacto.jpg" alt="Imagen de ejemplo"
+                  style="width: 100%; height: 270px; object-fit: cover; border-radius: 8px;">
+              </div>
+              <!-- Fin de Imagen de ejemplo -->
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <!-- Formulario de Contacto -->
+            <form id="contactForm" action="https://formspree.io/f/xjkvrgor" method="post" class="php-email-form">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Nombre:</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required />
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Email:</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required />
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Asunto:</label>
+                  <input type="text" class="form-control" name="subject-field" id="subject-field" required />
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Mensaje:</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Enviando...</div>
+                  <div class="error-message">Hubo un error al enviar tu mensaje. Intenta de nuevo.</div>
+                  <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+
+                  <button type="submit">Enviar</button>
+                </div>
+              </div>
+            </form>
+            <!-- Fin del Formulario de Contacto -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Sección de Contacto -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">iPortfolio</strong>
+          <span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <small>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <!-- Botón para regresar al principio de la página -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <!-- Elemento de carga previo que aparece mientras se carga la página -->
+  <div id="preloader"></div>
+
+  <!-- Archivos JS de Proveedores -->
+  <!-- Archivos JavaScript de bibliotecas externas necesarias para funcionalidades específicas -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap -->
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- Validación de formularios de correo electrónico -->
+  <script src="assets/vendor/aos/aos.js"></script> <!-- Efectos de desplazamiento (scroll) -->
+  <script src="assets/vendor/typed.js/typed.umd.js"></script> <!-- Efecto de texto escrito -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> <!-- Contador numérico -->
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <!-- Librería para detectar cuando un elemento entra en el viewport -->
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script> <!-- Lightbox para imágenes y videos -->
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <!-- Librería para gestionar la carga de imágenes -->
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> <!-- Filtros y organización de elementos -->
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> <!-- Librería para carruseles y deslizadores -->
+
+  <!-- Archivo JS Principal -->
+  <!-- Archivo principal que contiene el código JavaScript personalizado del sitio -->
+  <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
